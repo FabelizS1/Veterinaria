@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .boton {
+        @apply text-center bg-yellow-500 border-lime-500 font-bold text-white p-5 hover:bg-blue-700 cursor-pointer
+    }
+
+    .boton2 {
+        @apply text-center bg-blue-800 bg-red-800 font-bold text-white p-5 hover:bg-blue-700 cursor-pointer
+    }
+}
+
+    
+
